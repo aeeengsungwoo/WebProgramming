@@ -1,0 +1,148 @@
+@charset "EUC-KR";
+ .Sign_up_Title {
+      display: flex;
+      flex-direction: row;
+      gap: 0px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: absolute;
+      left: 1080px;
+      top: 171px;
+    }
+
+    .Sign-up {
+      color: #f5f5f5;
+      text-align: left;
+      font: 600 48px "Poppins-SemiBold", sans-serif;
+      position: relative;
+    }
+
+    .sign-up>a {
+      text-decoration: none;
+      color: #1a83ff;
+    }
+
+    .Account_Sign {
+      display: flex;
+      flex-direction: row;
+      gap: 8px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: absolute;
+      left: 1030px;
+      top: 243px;
+    }
+
+    .Account_form {
+      display: flex;
+      flex-direction: row;
+      gap: 0px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+    }
+
+    .join_ {
+      color: #ffffff;
+      text-align: left;
+      font: 400 24px "Poppins-Regular", sans-serif;
+      position: relative;
+    }
+
+   
+
+    .EM {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: absolute;
+      left: 400px;
+      top: 363px;
+    }
+
+    .email {
+      color: #ffffff;
+      text-align: left;
+      font: 400 14px "Poppins-Regular", sans-serif;
+      position: relative;
+      font-size: large;
+    }
+
+    .input_form {
+      border-radius: 4px;
+      border-style: solid;
+      border-color: #e4e4e4;
+      border-width: 1px;
+      padding: 21px 214px 21px 20px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      flex-shrink: 0;
+      position: relative;
+      font-size: large;
+    }
+
+    .email_form {
+      color: #ffffff;
+      text-align: left;
+      font: 300 16px "Poppins-Light", sans-serif;
+      position: relative;
+      font-size: large;
+    }
+
+    .password {
+      color: #ffffff;
+      text-align: left;
+      font: 400 14px "Poppins-Regular", sans-serif;
+      position: relative;
+
+    }
+
+    .password_form {
+      color: #ffffff;
+      text-align: left;
+      font: 300 16px "Poppins-Light", sans-serif;
+      position: relative;
+      font-size: large;
+    }
+
+    .PW {
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: absolute;
+      left: 400px;
+      top: 480px;
+    }
+
+    .submit_form {
+      background: #1a83ff;
+      border-radius: 4px;
+      padding: 14px 31px 14px 31px;
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      align-items: flex-start;
+      justify-content: flex-start;
+      position: absolute;
+      left: 735px;
+      top: 605px;
+      font-size: large;
+      color: #ffffff;
+      font: 700 25px "Poppins-Bold", sans-serif;
+
+    }
+
+    .submit_button {
+      color: #ffffff;
+      text-align: left;
+      font: 700 26px "Poppins-Bold", sans-serif;
+      position: absolute;
+    }
