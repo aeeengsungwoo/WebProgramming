@@ -6,7 +6,7 @@ import java.sql.DriverManager;
 public class DatabaseUtill {
 	public static Connection getConnection() {
 		try {
-			String dbURL ="jdbc:mysql://localhost:3306/USER";
+			String dbURL ="jdbc:mysql://localhost:3306/user";
 			String dbID = "root";
 			String dbPassword ="root";
 			//Driver, connector를 lib에 넣어주지 않으면 오류가 생김

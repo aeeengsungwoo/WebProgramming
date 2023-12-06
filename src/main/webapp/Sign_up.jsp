@@ -4,10 +4,9 @@
   <meta charset="UTF-8">
   <title>Insert title here</title>
   <style type="text/css">
-  @import "Signup.css";
+  @import "Sign_up.css";
   </style>
 </head>
-
 <body>
   <div class="back_ground">
 	<div class="title">
@@ -21,15 +20,15 @@
       </div>
     </div>
     </div>
-    <form method="post" action="./userJoinAction.jsp">
+    <form method="post" action="userJoinAction.jsp">
       <div class="EM">
         <div class="email">Email</div>
-        <div class="email_form"><input class=input_form id="userid" type="text" placeholder="Email"></div>
+        <div class="email_form"><input class=input_form name="user_id" type="text" placeholder="Email"></div>
       </div>
 
       <div class="PW">
         <div class="password">Password</div>
-        <div class="password_form"><input class=input_form id="password" type="password" placeholder="password">
+        <div class="password_form"><input class=input_form name="user_password" type="password" placeholder="password">
         </div>
         
       </div>

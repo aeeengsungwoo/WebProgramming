@@ -43,7 +43,7 @@
         </div>
         
       </div>
-      <div class="submit_button"><input class="submit_form" type="submit" value="Login"></div>
+      <div class="submit_button" onclick="Main.jsp"><input class="submit_form" type="submit" value="Login"></div>
     </form>
   </div>
 </body>

@@ -2,20 +2,20 @@ package userid;
 
 public class UserDTO {
 
-	String userID;
-	String userPassword;
+	String user_id;
+	String user_pw;
 	
 	public String getUserID() {
-		return userID;
+		return user_id;
 	}
 	public void setUserID(String userID) {
-		this.userID = userID;
+		this.user_id = userID;
 	}
 	public String getUserPassword() {
-		return userPassword;
+		return user_pw;
 	}
 	public void setUserPassword(String userPassword) {
-		this.userPassword = userPassword;
+		this.user_pw = userPassword;
 	}
 	
 }

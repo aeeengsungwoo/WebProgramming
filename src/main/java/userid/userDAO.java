@@ -6,14 +6,14 @@ import utill.DatabaseUtill;
 
 public class userDAO {
 		
-	public int Sign_up(String userID, String userPassword) {
+	public int Sign_up(String user_id, String user_pw) {
 		//사용자의 입력값을 받는 부분
-		String SQL ="INSERT INTO USERID VALUES (?,?)";
+		String SQL ="INSERT INTO user_info VALUES (?,?)";
 		try {
 			Connection conn = DatabaseUtill.getConnection();
 			PreparedStatement pstmt =conn.prepareStatement(SQL);
-			pstmt.setString(1, userID); // 받은 값을 ID에 저장
-			pstmt.setString(2, userPassword); // 받은 값을 Password에 저장
+			pstmt.setString(1, user_id); // 받은 값을 ID에 저장
+			pstmt.setString(2, user_pw); // 받은 값을 Password에 저장
 			return pstmt.executeUpdate(); // 값이 정상적으로 입력되었다면 1을 반환
 		}
 		// 회원의 아이디가 겹치면 오류가 발생해야 하는데, 현재는 발생하지 않는다.
